@@ -1,6 +1,8 @@
 body{
   font-family: Helvetica;
 }
+
+
 #title{
     /* width: 1440px;
     height: 500px; */
@@ -12,6 +14,15 @@ body{
   height: 398px;
   margin-bottom: -190px;
   margin-left: px;
+}
+@media (max-width: 800px){
+	.car-img{
+		width: 300px;
+		height: 150px;
+		margin-bottom: auto;
+		/* margin-top: 350px; */
+		/* background: greenyellow; */
+	}
 }
 
 .service-title{
@@ -82,6 +93,14 @@ body{
 	width: 80px;
 	margin-top: 30px;
   }
+  @media (max-width: 800px){
+	.carousel{
+		background: #F1F3FF;
+		width: 400px;
+		height: 170px;
+	}
+}
+  
 
   /* KOTAK */
 .kotak-banner{
@@ -118,4 +137,22 @@ body{
 .p{
 	margin-top: 100px;
 	margin-left: 100px;
+}
+@media (max-width: 800px){
+	.kotak-banner{
+		background: #0D28A6;
+		width: 500px;
+		height: 150px;
+		margin-left: 50px;
+		margin-top: 75px;
+	}
+}
+/* accordion */
+@media (max-width: 800px){
+	.acor{
+		width: auto;
+		height: auto;
+		margin-bottom: auto;
+		margin-left: auto;
+	}
 }
